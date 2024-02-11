@@ -2,7 +2,6 @@
 import PIL
 import streamlit as st
 from streamlit.logger import get_logger
-import cv2
 from ultralytics import YOLO
 import fun
 import numpy as np
@@ -49,7 +48,7 @@ def run():
                         elif checker == 1:
                             st.write('⚠️ Warning: No reference object found for size measurement.')
                             st.write('⚠️ Warning: The weight measurement might be invalid.')
-                            st.write('⚠️ Consider using a 4x4 inch reference object.')
+                            st.write('⚠️ Consider using a 4x4 inch (square/ round) reference object.')
                         
                         else:
                             st.write('Nothing found to measure.')
