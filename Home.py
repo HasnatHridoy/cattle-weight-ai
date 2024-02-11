@@ -7,8 +7,8 @@ from ultralytics import YOLO
 import fun
 import numpy as np
 
-model_path = "/home/vscode/.local/share/cattle-weight-ai/models/ob.pt"
-model_path2 = "/home/vscode/.local/share/cattle-weight-ai/models/sbest.pt"
+model_path = "models/ob.pt"
+model_path2 = "models/sbest.pt"
 
 def run():
 
@@ -103,10 +103,10 @@ def run():
     st.sidebar.success("Select a demo image bellow to see how it's work.")
 
     with st.sidebar:
-        sample_img1 = '/home/vscode/.local/share/cattle-weight-ai/sample_img/52_s_117_F.jpg'
-        sample_img2 = '/home/vscode/.local/share/cattle-weight-ai/sample_img/62_s_199_F.jpg'
-        sample_img3 = '/home/vscode/.local/share/cattle-weight-ai/sample_img/63_s_129_F.jpg'
-        sample_img4 = '/home/vscode/.local/share/cattle-weight-ai/sample_img/56_s_209_F.jpg'
+        sample_img1 = 'sample_img/52_s_117_F.jpg'
+        sample_img2 = 'sample_img/62_s_199_F.jpg'
+        sample_img3 = 'sample_img/63_s_129_F.jpg'
+        sample_img4 = 'sample_img/56_s_209_F.jpg'
 
         st.image(sample_img1, use_column_width=True)
         if 'cl1' not in st.session_state:
