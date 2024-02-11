@@ -3,6 +3,6 @@ numpy
 pandas
 pydeck
 streamlit
-ultralytics
-dill
+ultralytics == 8.1.11
+dill == 0.3.8
 opencv-python-headless == 4.8.1.78
