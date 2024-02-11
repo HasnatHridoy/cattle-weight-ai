@@ -46,9 +46,9 @@ def run():
                             st.write(f'The weight is = {weight}')
                         
                         elif checker == 1:
-                            st.write('⚠️ Warning: No reference object found for size measurement.')
-                            st.write('⚠️ Warning: The weight measurement might be invalid.')
-                            st.write('⚠️ Consider using a 4x4 inch (square/ round) reference object.')
+                            st.write('⚠️ Warning: No reference object found for correct size measurement.')
+                            st.write('⚠️ Warning: Without correct size measurement, measuring weight is invalid.')
+                            st.write('⚠️ Consider using a 4 inch diameter reference object.')
                         
                         else:
                             st.write('Nothing found to measure.')
@@ -151,21 +151,6 @@ def run():
         
 
 
-
-
-
-        
-
-                
     
-        
-
-
-
-    
-
-
-
-
 if __name__ == "__main__":
     run()

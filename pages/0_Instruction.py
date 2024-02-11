@@ -6,8 +6,9 @@ st.write(
     """Follow the instruction to get weight estimation accurately."""
 )
 
-st.markdown('#### - Use 4x4 inch reference object.')
-st.markdown('#### - Take picture with proper angle')
+st.markdown('#### - Use a 4 inch diameter reference object.')
+st.markdown('#### - Take picture with proper angle.')
+st.markdown('#### - Keep 1.5~2 meter distance from subject when taking the photo.')
 
 st.write(' ')
 st.write('An example')
