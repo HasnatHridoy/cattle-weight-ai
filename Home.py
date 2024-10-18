@@ -43,7 +43,7 @@ def run():
                                     )
 
                         if checker == 2 :
-                            st.write(f'The weight is = {weight}')
+                            st.write(f'The weight is = {weight} kg')
                         
                         elif checker == 1:
                             st.write('⚠️ Warning: No reference object found for correct size measurement.')
