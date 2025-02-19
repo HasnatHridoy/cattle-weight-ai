@@ -6,4 +6,4 @@ streamlit
 ultralytics == 8.1.11
 dill == 0.3.8
 opencv-python-headless == 4.9.0.80
-PyTorch==2.3
+torch==2.3.1
