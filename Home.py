@@ -22,7 +22,7 @@ def run():
                 # Adding the uploaded image to the page with a caption
                 st.image(source_img,
                         caption="Uploaded Image",
-                        use_column_width=True
+                        use_container_width=True
                         )
                 
                 if st.button("Predict", type="primary"):
@@ -39,7 +39,7 @@ def run():
                         with col2:
                             st.image(transformed_img,
                                     caption='Detected Image',
-                                    use_column_width=True
+                                    use_container_width=True
                                     )
 
                         if checker == 2 :
@@ -107,7 +107,7 @@ def run():
         sample_img3 = 'sample_img/63_s_129_F.jpg'
         sample_img4 = 'sample_img/56_s_209_F.jpg'
 
-        st.image(sample_img1, use_column_width=True)
+        st.image(sample_img1, use_container_width=True)
         if 'cl1' not in st.session_state:
             st.session_state.cl1 = False
         def cb1():
@@ -117,7 +117,7 @@ def run():
             internel(col1, col2, sample_img1, model_ob, model_sg)
 
 
-        st.image(sample_img2, use_column_width=True)
+        st.image(sample_img2, use_container_width=True)
         if 'cl2' not in st.session_state:
             st.session_state.cl2 = False
         def cb2():
@@ -127,7 +127,7 @@ def run():
             internel(col1, col2, sample_img2, model_ob, model_sg)
 
 
-        st.image(sample_img3, use_column_width=True)
+        st.image(sample_img3, use_container_width=True)
         if 'cl3' not in st.session_state:
             st.session_state.cl3= False
         def cb3():
@@ -137,7 +137,7 @@ def run():
             internel(col1, col2, sample_img3, model_ob, model_sg)
 
         
-        st.image(sample_img4, use_column_width=True)
+        st.image(sample_img4, use_container_width=True)
         if 'cl4' not in st.session_state:
             st.session_state.cl4 = False
         def cb4():
