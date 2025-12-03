@@ -83,7 +83,7 @@ def run():
 
     st.markdown(
         """
-        This app is specially built for predicting cow's weight from 2D image.
+        This app is specially built for predicting cow's weight from 2D image. \n
         Please refer to the Instructions page for proper weight determination.
 
         """
