@@ -3,7 +3,7 @@ numpy==1.26.4
 pandas
 pydeck
 streamlit
+opencv-python-headless == 4.9.0.80
 ultralytics == 8.1.11
 dill == 0.3.8
-opencv-python-headless == 4.9.0.80
 torch==2.3.1
